@@ -8,11 +8,11 @@ public class _01_SortArrayOfNumbers {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		int count = Integer.parseInt(scan.nextLine());
+		int num = Integer.parseInt(scan.nextLine());
 		
 		String[] arrays_str = scan.nextLine().split(" ");
 		
-		int[] array_int = new int[count];
+		int[] array_int = new int[num];
 		
 		scan.close();
 		
